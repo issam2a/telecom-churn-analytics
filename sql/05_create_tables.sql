@@ -90,4 +90,4 @@ constraint fk_payment_key
 
 
 
-drop table telecom.fact_customer_churn cascade 
+

@@ -13,10 +13,15 @@ order by
 	churn_rate_pct desc ;
 
 	
--- 2. Revenue by contract type
+-- 2. Revenue at risk  by contract type
 select 
 	contract ,
-	sum(monthly_charges) as revenue_by_contract 
+	sum(monthly_charges) as revenue_at_risk_by_contract ,
+	round(
+		sum(monthly_charges) * 100.0 
+		/
+		sum(sum(monthly_charges)) over() 
+	,2) as revenue_at_risk_by_contract_pct
 from 
 	telecom.v_telecom_churn
 
@@ -25,10 +30,33 @@ group by
 	contract 
 
 order by
-	revenue_by_contract  desc
+	revenue_at_risk_by_contract  desc
 	;
 
--- 3. Contract distribution
+
+-- 3. Revenue  by contract type
+
+select 
+	contract ,
+	sum(monthly_charges) as revenue_by_contract ,
+
+	round (
+		sum(monthly_charges) * 100.0 
+		/
+		sum(sum(monthly_charges)) over() 
+	,2 ) as revenue_by_contract_pct
+	
+from 
+	telecom.v_telecom_churn 
+
+group by 
+	contract 
+order by 
+	revenue_by_contract desc
+	
+
+
+-- 4. Contract distribution
 
 select 
 	contract,
@@ -46,7 +74,7 @@ group by
 order by 
 	customers_pct 
 
--- 4. Impact of long-term contracts
+-- 5. Impact of long-term contracts
 
 select 
 	case 
@@ -63,3 +91,4 @@ from
 	telecom.v_telecom_churn 
 group by 
 	contract_group 
+

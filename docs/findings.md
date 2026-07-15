@@ -117,3 +117,47 @@ Contract commitment appears to be one of the strongest predictors of customer re
 ### Recommendation:
 
 Design retention programs focused on converting month-to-month customers into longer-term contracts.
+
+# Tenure Analysis
+
+## 1.  During which tenure period is churn highest?
+
+### Finding :
+
+Customers in the first 12 months of service exhibit the highest churn rate compared to all other tenure groups.
+
+### Insight:
+
+Customer attrition is concentrated during the early stages of the customer lifecycle. This suggests that customers who do not establish sufficient value from the service during their first year are significantly more likely to leave.
+
+## Recommendation
+
+Strengthen customer onboarding and engagement initiatives during the first year. Consider targeted retention campaigns for customers approaching critical churn periods.
+
+## 2.What Percentage of Churn Occurs Within the First Year?
+
+### Finding:
+
+55% of all churned customers left within their first year of service.
+
+### Insight:
+
+A substantial proportion of customer losses occur early in the relationship, indicating that customer retention challenges are most severe during the onboarding and adoption phase.
+
+### Recommendation:
+
+Implement proactive retention measures during the first 12 months, including service education, support outreach, and loyalty incentives.
+
+## 3. Are Long-Tenured Customers Less Likely to Churn?
+
+### Finding:
+
+Customers with more than 12 months of tenure demonstrate significantly higher retention rates than newer customers.
+
+### Insight:
+
+Customer loyalty appears to strengthen over time. Once customers remain with the company beyond the first year, their likelihood of churn decreases considerably.
+
+### Recommendation:
+
+Focus retention resources on newer customers while continuing to reward long-tenured customers through loyalty programs and contract renewal incentives.

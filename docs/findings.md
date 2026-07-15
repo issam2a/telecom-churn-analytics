@@ -56,3 +56,64 @@ This demographic segment represents a high-risk customer group, with approximate
 ### Recommendation:
 
 Prioritize this segment for proactive retention initiatives. Implement targeted outreach, dedicated support programs, contract renewal incentives, and customer satisfaction surveys to better understand and address the drivers of churn.
+
+
+# Contract Analysis
+
+## 1. Which contract type has the highest churn?
+
+### Finding:
+
+Month-to-month customers have a churn rate of 42.7%, compared to 11.3% for one-year contracts and 2.8% for two-year contracts.
+
+### Insight:
+
+Customers without long-term commitments are substantially more likely to leave the service.
+
+### Recommendation:
+
+Promote migration to annual and multi-year contracts through pricing incentives and loyalty programs.
+
+## 2. Revenue by Contract Type
+
+### Finding:
+
+Month-to-month customers generate $257294.15 in monthly revenue, representing 56.41% of total revenue.
+
+Month-to-month customers generate $120847.10 in monthly  revenue at risk , representing 86.86% of total revenue at risk .
+
+### Insight:    
+
+Although this segment contributes significant revenue, it also experiences the highest churn risk.
+
+### Recommendation:
+
+Prioritize retention efforts within the month-to-month segment to protect recurring revenue.
+
+## 3. Contract Distribution
+
+### Finding:
+
+55.02% of customers are on month-to-month contracts.
+
+### Insight:
+
+A large proportion of customers remain on the highest-risk contract type.
+
+### Recommendation:
+
+Increase adoption of longer-term contracts to improve retention.
+
+## 4. Impact of Long-Term Contracts
+
+### Finding:
+
+Long-term contract customers exhibit significantly lower churn rates than short-term customers.
+
+### Insight:
+
+Contract commitment appears to be one of the strongest predictors of customer retention.
+
+### Recommendation:
+
+Design retention programs focused on converting month-to-month customers into longer-term contracts.

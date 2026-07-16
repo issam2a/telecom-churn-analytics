@@ -236,3 +236,47 @@ Revenue loss is concentrated within specific service segments (Fiber optic inter
 
 Prioritize retention efforts for high-revenue service segments, particularly customers using Fiber Internet without Tech Support.
 
+
+# Billing Payment analysis 
+
+## 1. Which Payment Methods Have Highest Churn?
+
+### Finding:
+
+Customers using electronic checks exhibit the highest churn rate of 45.29% among all payment methods.
+
+### Insight:
+
+Payment behavior appears to be associated with customer retention. Customers using electronic checks may represent a less engaged or less committed customer segment.
+
+### Recommendation:
+
+Investigate whether customers using electronic checks should be targeted with retention campaigns or encouraged to migrate to automatic payment methods.
+
+## 2. Does paperless billing correlate with churn?
+
+### Finding:
+
+Customers using paperless billing exhibit a higher churn rate of 33.57% than customers receiving traditional billing.
+
+### Insight:
+
+Paperless billing alone is unlikely to cause churn but may be associated with customer segments that are more likely to leave.
+
+### Recommendation
+
+Combine paperless billing analysis with contract type and tenure analysis to better understand the underlying drivers.
+
+## 3. Do higher monthly charges increase churn?
+
+### Finding:
+
+Customers in the highest monthly charge segment exhibit significantly higher churn rate of 34.54% than customers in lower-priced segments with churn rate of 16.47.
+
+### Insight:
+
+Price sensitivity appears to be an important factor influencing customer retention.
+
+### Recommendation:
+
+Evaluate pricing strategies and value-added service offerings for high-charge customers to reduce churn risk.

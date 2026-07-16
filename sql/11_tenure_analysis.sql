@@ -42,8 +42,8 @@ from
 select
 
 	case 
-		when tenure > 12 then '0-12 months ' 
-		else '+12 months'
+		when tenure > 12 then '+12 months ' 
+		else '0-12 months'
 		
 	end as customer_lifecycle ,
 
@@ -60,7 +60,8 @@ from
 group by 
 	customer_lifecycle 
 order by 
-	retention_rate_pct desc
+	customer_lifecycle  desc
+
 
 
 

@@ -130,7 +130,7 @@ Customers in the first 12 months of service exhibit the highest churn rate compa
 
 Customer attrition is concentrated during the early stages of the customer lifecycle. This suggests that customers who do not establish sufficient value from the service during their first year are significantly more likely to leave.
 
-## Recommendation
+### Recommendation
 
 Strengthen customer onboarding and engagement initiatives during the first year. Consider targeted retention campaigns for customers approaching critical churn periods.
 
@@ -161,3 +161,78 @@ Customer loyalty appears to strengthen over time. Once customers remain with the
 ### Recommendation:
 
 Focus retention resources on newer customers while continuing to reward long-tenured customers through loyalty programs and contract renewal incentives.
+
+# service Analysis
+
+## Does Tech Support reduce churn?
+
+### Finding:
+
+Customers without Tech Support have a churn rate of 41.64%, compared to 15.17% for customers with Tech Support.
+
+### Insight:
+
+Tech Support appears to be strongly associated with customer retention.
+
+### Recommendation :
+
+Promote Tech Support adoption among high-risk customer segments and consider bundling it with internet service packages.
+
+## 2. Does Online Security Reduce Churn?
+
+### Finding :
+
+Customers with Online Security exhibit significantly lower churn rates of 14.61%  than those without the service with a 41.77% churn rate .
+
+### Insight :
+
+Online Security may increase perceived service value and customer stickiness.
+
+### Recommendation :
+
+Increase awareness and adoption of Online Security through bundled service offerings.
+
+
+## 3. Does Device Protection Reduce Churn?
+
+### Finding :
+
+Customers with Device Protection experience lower churn rates of 22.50%  than customers without the service with a churn rate of 39.13%.
+
+### Insight:
+
+Customers using additional value-added services appear more engaged and less likely to leave.
+
+### Recommendation :
+
+Promote Device Protection during onboarding and contract renewals.
+
+
+## 4. Which Service Combinations Reduce Churn?
+
+### Finding:
+
+Customers with Internet Service + Tech Support + Online Security + device protection +online backup  exhibit the lowest churn rate of 3.23%  among major service combinations.
+
+### Insight:
+
+Service adoption appears to have a cumulative effect on retention.
+
+### Recommendation:
+
+Create bundled packages that encourage customers to adopt multiple complementary services.
+
+## Revenue at Risk by Service
+
+### Finding :
+
+Customers with [Fiber optic Internet Service] , [phone service] and [No Tech Support]  contribute 68.79% of total revenue at risk  representing  59% of churned customers.
+
+### Insight :
+
+Revenue loss is concentrated within specific service segments (Fiber optic internet service , No tech support ) rather than being evenly distributed across the customer base.
+
+### Recommendation:
+
+Prioritize retention efforts for high-revenue service segments, particularly customers using Fiber Internet without Tech Support.
+

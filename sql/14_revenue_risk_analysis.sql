@@ -1,4 +1,4 @@
--- 1. How much revenue is being lost?
+-- 1. How much monthly recurring revenue is currently being lost?
 select 
 	sum(monthly_charges)  filter (where churn = true ) as total_lost_revenue
 from 
@@ -6,9 +6,31 @@ telecom.v_telecom_churn
 
 
 
--- 2. Which customer segments contribute most to revenue loss?
+-- 2. Which contract segments contribute most to revenue loss?
 
--- paymet method
+select 
+	contract ,
+	sum(monthlY_charges) as lost_revenue ,
+
+	round(
+		sum(monthly_charges) *100.0 
+		/
+		sum(
+			sum(monthly_charges) 
+			) over()
+	,2 ) as lsot_revenue_pct 
+from 
+	telecom.v_telecom_churn 
+
+where churn = true 
+
+group  by 
+	contract
+
+order by 
+	lsot_revenue_pct  desc
+
+-- 3. Which payment methods contribute most to revenue loss?
 select 
 	payment_method ,
 	sum(monthlY_charges) as lost_revenue ,
@@ -31,7 +53,7 @@ group  by
 order by 
 	lsot_revenue_pct  desc
 	
--- services 
+-- 4.  Which service segments contribute most to revenue loss?
 select 
 	tech_support ,
 	sum(monthlY_charges) as lost_revenue ,
@@ -54,7 +76,9 @@ group  by
 order by 
 	lsot_revenue_pct  desc
 
--- tenure 
+	
+
+-- 5. Which tenure groups contribute most to revenue loss?
 select 
 	
 	case
@@ -86,34 +110,12 @@ order by
 
 
 
--- contract 
-
-
-select 
-	contract ,
-	sum(monthlY_charges) as lost_revenue ,
-
-	round(
-		sum(monthly_charges) *100.0 
-		/
-		sum(
-			sum(monthly_charges) 
-			) over()
-	,2 ) as lsot_revenue_pct 
-from 
-	telecom.v_telecom_churn 
-
-where churn = true 
-
-group  by 
-	contract
-
-order by 
-	lsot_revenue_pct  desc
 
 
 
--- Customer Segment
+
+
+-- 6. Which customer segments generate the highest revenue at risk?
 
 select 
     contract,
@@ -145,57 +147,3 @@ order by  revenue_at_risk desc;
 
 
 
--- 3. Which high-value customers are at greatest risk?
-
-
-with customer_value as 
-(
-    select 
-        customer_key,
-        contract,
-        internet_service,
-        tech_support,
-        churn,
-        total_charges,
-
-        ntile(4) over (
-            order by  total_charges desc
-        ) as value_tier
-
-    from telecom.v_telecom_churn
-)
-
-select 
-    contract,
-    internet_service,
-    tech_support,
-
-    count(*) as customers,
-
-    round(
-        avg(total_charges), 
-        2
-    ) as avg_customer_value,
-
-    round(
-        avg(churn::int) * 100,
-        2
-    ) as churn_rate_pct,
-
-    count(*) filter (
-        where churn = true
-    ) as churned_customers
-
-from customer_value
-
-where value_tier = 1   -- Top 25% highest-value customers
-
-group by 
-    contract,
-    internet_service,
-    tech_support
-
-having count (*) >= 30
-
-order by 
-    churn_rate_pct desc;

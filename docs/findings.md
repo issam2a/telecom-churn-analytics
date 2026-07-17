@@ -361,7 +361,11 @@ Encourage migration from month-to-month contracts to annual or multi-year agreem
 The customer segment defined by:
 
 Contract: [Month-to-month]
+
+
 Internet Service: [Fiber optic]
+
+
 Tech Support: [Tech Support Status : No]
 
 generates the highest amount of revenue at risk.
@@ -383,7 +387,11 @@ Prioritize retention efforts for this segment through targeted offers, proactive
 Among the top 25% highest-value customers, the segment with the highest churn rate consists of:
 
 Contract: [Month-to-month]
+
+
 Internet Service: [Fiber optic]
+
+
 Tech Support: [Tech Support Status: No]
 
 This segment exhibits a churn rate of 37.19% despite having an average customer value of $5134.41.

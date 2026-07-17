@@ -283,7 +283,7 @@ Evaluate pricing strategies and value-added service offerings for high-charge cu
 
 # Revenue Risk Analysis
 
-## 1. How Much Revenue Is Being Lost?
+## 1. How much monthly recurring revenue is currently being lost?
 
 ### Finding:
 
@@ -297,11 +297,14 @@ Customer churn is creating a direct reduction in recurring revenue. Every percen
 
 Prioritize retention initiatives focused on customer segments with the highest revenue contribution and highest churn risk.
 
-## 2. Which Customer Segments Contribute Most to Revenue Loss?
+
 
 ### Finding:
 
-* Payment Method Analysis
+## 2. Which payment methods contribute most to revenue loss?
+
+### Finding:
+
 Customers using [Electronic check] account for 60.58% of total revenue loss, representing the largest revenue-at-risk payment segment.
 
 ### Insight:
@@ -312,7 +315,7 @@ Revenue loss is concentrated among specific payment behaviors rather than being 
 
 Investigate whether customers using this payment method exhibit other risk characteristics such as month-to-month contracts or shorter tenure.
 
-* Service Analysis
+## 3. Which service segments contribute most to revenue loss?
 
 
 ### Finding:
@@ -327,7 +330,9 @@ Service adoption appears to have a strong relationship with retention. Customers
 
 Increase adoption of Tech Support through service bundles, onboarding campaigns, and targeted retention offers.
 
-* Tenure Analysis
+## 4. Which tenure groups contribute most to revenue loss?
+
+
 ### Finding:
 
 Customers in the [0-12 Months] segment contribute 49.56% of total revenue loss, making it the highest-risk stage of the customer lifecycle.
@@ -340,7 +345,9 @@ Revenue loss is concentrated during a specific phase of the customer journey. Th
 
 Implement proactive engagement programs and retention campaigns before customers enter the highest-risk tenure period.
 
-* Contract Analysis
+
+## 5. Which contract segments contribute most to revenue loss?
+
 
 ### Finding:
 
@@ -354,7 +361,7 @@ Contract commitment is strongly associated with revenue protection. Customers wi
 
 Encourage migration from month-to-month contracts to annual or multi-year agreements through pricing incentives and loyalty programs.
 
-## 3. Highest Revenue-Loss Customer Segments
+## 6. Which customer segments generate the highest revenue at risk?
 
 ### Finding:
 
@@ -380,7 +387,62 @@ Revenue loss is concentrated within a relatively small number of customer segmen
 
 Prioritize retention efforts for this segment through targeted offers, proactive support outreach, and contract upgrade opportunities.
 
-## 4. Which High-Value Customers Are at Greatest Risk?
+
+
+# Customer Lifetime Value Analysis
+## 1.  What is the estimated customer lifetime value across segments?
+
+
+### Finding :
+
+Customer lifetime value varies significantly across different customer segments.
+
+Customers with Tenure Group ["+45 Months] generate the highest average lifetime value of $4685.51, while customers in [Fiber optic Internet service ] generate the lowest average lifetime value of $3205.30.
+
+Segments with longer contract commitments and longer customer tenure tend to generate higher lifetime value due to longer retention periods and higher cumulative revenue.
+
+### Insight:
+
+Customer value is not evenly distributed across the customer base. Certain customer groups generate significantly more long-term revenue than others.
+
+Contract commitment, tenure, and service adoption appear to be important factors associated with higher customer lifetime value.
+
+### Recommendation:
+
+The company should focus on acquiring and retaining customer profiles associated with higher lifetime value while encouraging lower-value segments to adopt services and contract structures that increase long-term engagement.
+
+## 2. Which customer groups generate the highest long-term value?
+
+### Finding:
+
+The highest-value customer group consists of customers with:
+
+Contract Type: [Two year]
+
+
+Internet Service: [Fiber optic]
+
+
+Tech Support: [Tech Support Status : Yes]
+
+This segment generates an average customer lifetime value of $7078.03.
+
+### Insight:
+
+High-value customers are typically associated with stronger contractual commitment and greater service adoption.
+
+Customers who subscribe to additional services and maintain longer contracts generate more revenue over their relationship with the company.
+
+### Recommendation:
+
+The company should prioritize retention programs for these high-value customer groups and encourage similar customer behaviors through:
+
+* Long-term contract incentives
+* Service bundle offers
+* Loyalty programs
+* Personalized customer engagement
+
+## 3. Are high-value customers churning at a concerning rate?
 
 ### Finding:
 

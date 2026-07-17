@@ -280,3 +280,119 @@ Price sensitivity appears to be an important factor influencing customer retenti
 ### Recommendation:
 
 Evaluate pricing strategies and value-added service offerings for high-charge customers to reduce churn risk.
+
+# Revenue Risk Analysis
+
+## 1. How Much Revenue Is Being Lost?
+
+### Finding:
+
+The company is currently losing $139130.85 in monthly recurring revenue from churned customers.
+
+### Insight:
+
+Customer churn is creating a direct reduction in recurring revenue. Every percentage point reduction in churn would help preserve a portion of this revenue stream and improve long-term profitability.
+
+### Recommendation:
+
+Prioritize retention initiatives focused on customer segments with the highest revenue contribution and highest churn risk.
+
+## 2. Which Customer Segments Contribute Most to Revenue Loss?
+
+### Finding:
+
+* Payment Method Analysis
+Customers using [Electronic check] account for 60.58% of total revenue loss, representing the largest revenue-at-risk payment segment.
+
+### Insight:
+
+Revenue loss is concentrated among specific payment behaviors rather than being evenly distributed across all payment methods.
+
+### Recommendation:
+
+Investigate whether customers using this payment method exhibit other risk characteristics such as month-to-month contracts or shorter tenure.
+
+* Service Analysis
+
+
+### Finding:
+
+Customers [without] Tech Support account for 79.57% of total revenue loss.
+
+### Insight:
+
+Service adoption appears to have a strong relationship with retention. Customers without support-related services contribute disproportionately to lost revenue.
+
+### Recommendation:
+
+Increase adoption of Tech Support through service bundles, onboarding campaigns, and targeted retention offers.
+
+* Tenure Analysis
+### Finding:
+
+Customers in the [0-12 Months] segment contribute 49.56% of total revenue loss, making it the highest-risk stage of the customer lifecycle.
+
+### Insight:
+
+Revenue loss is concentrated during a specific phase of the customer journey. This indicates that retention efforts should be prioritized during this period.
+
+### Recommendation:
+
+Implement proactive engagement programs and retention campaigns before customers enter the highest-risk tenure period.
+
+* Contract Analysis
+
+### Finding:
+
+Customers on [Month-to-month] contracts contribute 86.86% of total revenue loss.
+
+### Insight:
+
+Contract commitment is strongly associated with revenue protection. Customers without long-term commitments represent the largest source of lost revenue.
+
+### Recommendation:
+
+Encourage migration from month-to-month contracts to annual or multi-year agreements through pricing incentives and loyalty programs.
+
+## 3. Highest Revenue-Loss Customer Segments
+
+### Finding:
+
+The customer segment defined by:
+
+Contract: [Month-to-month]
+Internet Service: [Fiber optic]
+Tech Support: [Tech Support Status : No]
+
+generates the highest amount of revenue at risk.
+
+This segment contributes $88165.75 in monthly revenue at risk and exhibits a churn rate of 57.52%.
+
+### Insight:
+
+Revenue loss is concentrated within a relatively small number of customer segments. These customers combine both elevated churn risk and significant revenue contribution.
+
+### Recommendation:
+
+Prioritize retention efforts for this segment through targeted offers, proactive support outreach, and contract upgrade opportunities.
+
+## 4. Which High-Value Customers Are at Greatest Risk?
+
+### Finding:
+
+Among the top 25% highest-value customers, the segment with the highest churn rate consists of:
+
+Contract: [Month-to-month]
+Internet Service: [Fiber optic]
+Tech Support: [Tech Support Status: No]
+
+This segment exhibits a churn rate of 37.19% despite having an average customer value of $5134.41.
+
+### Insight:
+
+Although high-value customers generally demonstrate stronger retention, specific high-value segments remain vulnerable to churn. Losing these customers has a disproportionate impact on revenue because they contribute significantly more value than the average customer.
+
+### Recommendation:
+
+Develop a dedicated retention strategy for high-value customers, including proactive account management, loyalty incentives, service upgrades, and personalized retention campaigns.
+
